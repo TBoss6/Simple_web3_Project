@@ -12,7 +12,6 @@ const port = process.env.PORT || 8080;
 
 app.use(express.json());
 console.log(app.get("env"));
-// console.log(process.env);
 
 //USING ROUTE
 app.use("/User", WalletRouter);
